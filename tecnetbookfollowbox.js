@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const followBox = document.createElement('div');
   followBox.className = 'follow-box';
   followBox.innerHTML = `
-    <a href="https://news.google.com/publications/CAAqBwgKMOjQswsw0arhAw" class="btn" target="_blank" rel="noopener">
+    <a href="https://news.google.com/publications/CAAqLAgKIiZDQklTRmdnTWFoSUtFSFJsWTJodVpYUmliMjlyY3k1amIyMG9BQVAB" class="btn" target="_blank" rel="noopener">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="28" height="28" style="margin-right:10px;">
         <path fill="#EA4335" d="M24 9.5c3.94 0 7.25 1.64 9.61 4.27l7.07-7.07C36.96 2.55 30.89 0 24 0 14.64 0 6.51 4.91 2.56 12.02l8.23 6.39C12.67 13.54 17.9 9.5 24 9.5z"/>
         <path fill="#34A853" d="M46.98 24.55c0-1.47-.13-2.88-.37-4.24H24v8.04h13.02c-.56 2.88-2.24 5.32-4.77 6.97l7.32 5.69C43.77 36.73 46.98 31.17 46.98 24.55z"/>
@@ -16,11 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
       Follow on Google News
     </a>
     <p>
-      Stay up to date with <strong>Technetbook</strong> — your source for the latest tech reviews, news &amp; insights. 
-      Follow us on <a href="https://news.google.com/publications/CAAqBwgKMOjQswsw0arhAw" target="_blank" rel="noopener">Google News</a> 
-      or <a href="https://news.google.com/publications/CAAqBwgKMOjQswsw0arhAw?hl=en-US&amp;gl=US&amp;ceid=US:en" target="_blank" rel="noopener">add us to your feed</a>.
+      Stay up to date with <strong>Technetbook</strong> your source for the latest tech reviews, news &amp; insights. 
+      Follow us on <a href="https://news.google.com/publications/CAAqLAgKIiZDQklTRmdnTWFoSUtFSFJsWTJodVpYUmliMjlyY3k1amIyMG9BQVAB" target="_blank" rel="noopener">Google News</a> 
+      or <a href="https://www.google.com/preferences/source?q=" target="_blank" rel="noopener">add us to your feed</a>.
     </p>
   `;
   
   postBody.insertAdjacentElement('afterend', followBox);
 });
+
