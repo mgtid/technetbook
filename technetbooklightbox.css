@@ -1,0 +1,56 @@
+/* ─── Technetbook Instant Lightbox ───────────────────────────── */
+.technet-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+.technet-lightbox-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.technet-lightbox-inner {
+  position: relative;
+  max-width: 95vw;
+  max-height: 90vh;
+}
+
+.technet-lightbox-img {
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.6);
+  user-select: none;
+}
+
+.technet-lightbox-close {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border: none;
+  font-size: 26px;
+  padding: 8px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background .25s ease;
+  backdrop-filter: blur(6px);
+  z-index: 100000;
+}
+.technet-lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Optional: make post images feel clickable */
+.post-body img, .separator img {
+  cursor: zoom-in;
+}
